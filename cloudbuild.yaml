@@ -1,0 +1,4 @@
+steps:
+# Load Test
+- name: 'gcr.io/$PROJECT_ID/docker-compose'
+  args: ['run', 'k6']
